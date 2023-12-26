@@ -427,12 +427,18 @@
             </li>
           </ul>
         </div>
-        <div>
-          <form name="substribtion_form" autocomplete="off" novalidate>
-            <label>Subscribe</label>
+        <div class="subscription">
+          <p class="subscription-text">Subscribe</p>
+          <form name="substribtion-form" class="subscription-form">
+            <label class="subscription-label"></label>
             <br />
-            <input type="email" name="email" />
-            <button type="submit">Subscribe</button>
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              class="subscription-input"
+            />
+            <button type="submit" class="subscription-button">Subscribe</button>
           </form>
         </div>
       </div>
