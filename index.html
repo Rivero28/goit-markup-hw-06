@@ -449,18 +449,37 @@
             <use href="./images/symbol-defs.svg#icon-VectorModal"></use>
           </svg>
         </button>
-        <div class="modal-form">
-          <p></p>
-          <form>
-            <h2>Leave your contacts and we will call you back</h2>
+        <p class="">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="">
             <label>Name</label>
-            <input type="text" name="name" />
+            <input type="text" name="name" /><svg class="">
+              <use href=""></use>
+            </svg>
+          </div>
+          <div class="">
             <label>Phone</label>
-            <input type="tel" name="phone" />
-            <label>Email</label>
-            <input type="email" name="email" />
+            <input type="tel" name="phone" /><svg class="">
+              <use href=""></use>
+            </svg>
+          </div>
+          <div class="">
+            <label>Email</label> <input type="email" name="email" /><svg
+              class=""
+            >
+              <use href=""></use>
+            </svg>
+          </div>
+          <div class="">
             <label>Comment</label>
-            <textarea placeholder="Text input"></textarea>
+            <textarea
+              class="modal-window-form-textarea"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="">
             <label>
               <input
                 type="checkbox"
@@ -469,9 +488,9 @@
               />I accept the terms and conditions of the
               <a href="">Privacy Policy.</a></label
             >
-            <button type="submit">Send</button>
-          </form>
-        </div>
+          </div>
+        </form>
+        <button type="submit">Send</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
