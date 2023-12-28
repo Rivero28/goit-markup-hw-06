@@ -8,6 +8,7 @@ body {
   --portfolio-color: #f4f4fd;
   --form-color: #2e2f42;
   --form-label-color: #8e8f99;
+  --form-checkbox-color: #404bbf;
 }
 h1,
 h2,
@@ -643,7 +644,6 @@ ol {
 }
 .form-input:focus {
   border-color: #4d5ae5;
-  fill: #4d5ae5;
 }
 .form-svg {
   position: absolute;
@@ -698,9 +698,9 @@ ol {
   fill: transparent;
 }
 .form-privacy-policy:checked + .form-checkbox-label span {
-  background-color: ;
+  background-color: var(--form-checkbox-color);
   border: none;
-  fill: ;
+  fill: var(--portfolio-color);
 }
 .privacy-policy-link {
   color: var(--brand-color);
