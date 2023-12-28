@@ -728,9 +728,9 @@ ol {
   display: flex;
 }
 .subscription-label {
-  gap: 24px;
 }
 .subscription-input {
+  gap: 24px;
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
