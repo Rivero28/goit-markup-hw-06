@@ -619,6 +619,9 @@ ol {
   margin-bottom: 16px;
 }
 .form-point {
+  margin-bottom: 8px;
+}
+.form-point-comment {
   margin-bottom: 16px;
 }
 .form-label {
