@@ -43,9 +43,6 @@ ol {
   text-decoration: none;
 }
 .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -62,7 +59,7 @@ ol {
 }
 .div-header {
   display: flex;
-  gap: 332px;
+  justify-content: space-between;
 }
 .nav-header {
   display: flex;
@@ -152,10 +149,6 @@ ol {
   color: #404bbf;
 }
 .main-banner {
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 188px 0;
 }
 .main-banner-background {
@@ -182,7 +175,7 @@ ol {
   color: #ffffff;
   text-wrap: wrap;
   max-width: 496px;
-  margin-bottom: 48px;
+  margin: 0 auto 48px;
 }
 .main-banner-button {
   background-color: #4d5ae5;
@@ -200,6 +193,7 @@ ol {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto;
 }
 .main-banner-button:hover {
   background-color: #404bbf;
@@ -762,8 +756,6 @@ ol {
   display: flex;
   gap: 24px;
 }
-.subscription-label {
-}
 .subscription-input {
   width: 264px;
   height: 40px;
@@ -779,6 +771,9 @@ ol {
 }
 placeholder {
   color: #ffffff;
+}
+.subscription {
+  margin-left: 80px;
 }
 .subscription-button {
   min-width: 165px;
