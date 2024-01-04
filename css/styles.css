@@ -98,9 +98,7 @@ ol {
   color: #4d5ae5;
   margin-right: 76px;
 }
-.link {
-  text-decoration: none;
-}
+
 .link-active {
   color: var(--brand-color);
 }
@@ -351,9 +349,6 @@ ol {
   display: inline-block;
   margin-bottom: 16px;
 }
-.footer-logo {
-  margin-right: 120px;
-}
 .footer-description {
   line-height: 1.5;
   color: #f4f4fd;
@@ -366,7 +361,7 @@ ol {
 .footer-secondary {
   display: flex;
   align-items: baseline;
-  place-content: start;
+  justify-content: space-between;
 }
 .footer-header {
   color: #ffffff;
@@ -457,7 +452,6 @@ ol {
 .button-list-item {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 24;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -720,15 +714,8 @@ ol {
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
   background-color: #4d5ae5;
   border: none;
-  border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -768,12 +755,6 @@ ol {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
-}
-placeholder {
-  color: #ffffff;
-}
-.subscription {
-  margin-left: 80px;
 }
 .subscription-button {
   min-width: 165px;
